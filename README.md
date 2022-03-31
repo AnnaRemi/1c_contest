@@ -21,7 +21,7 @@ When the game is over the board disappears(didn't have time to make nicer presen
 
 For realization i created classes Piece for checkers pieces with methods to make a piece a king, draw it and move it,
 Board for drawing a classic board with all the pieces and evaluating,
-Game for updating possible moves and running the game itself. I've chosen depth=5(not very deep, but rather effective).
+Game for updating possible moves and running the game itself. I've chosen depth=3(not very deep, but rather effective).
 
 Basic algorithm for an AI is as it goes: look for a move where we can capture a piece, if this is possible, try to become a king; if none of that is possible, choose some random move.
 
